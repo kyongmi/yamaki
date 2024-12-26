@@ -219,7 +219,7 @@ img{
 
 .top_ga {
     height: 600px;
-    background-image: url(/images/back1@2x.png);
+    background-image: url(./images/back1@2x.png);
     background-position: center;
     background-size: cover;
     display: flex;
