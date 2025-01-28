@@ -1130,6 +1130,8 @@ select {
 
     .back4 {
         padding: 50px 0;
+	background-color:rgba(255,255,255,0.7);
+        background-blend-mode:lighten;
     }
 
     .area4 {
