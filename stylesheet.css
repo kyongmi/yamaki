@@ -266,7 +266,7 @@ img{
 }
 
 .area2 .inner {
-    background-image: url(../images/back2@2x.png);
+    background-image: url(images/back2@2x.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
