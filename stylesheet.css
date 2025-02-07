@@ -180,7 +180,7 @@ img{
 .pc_menu {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
 }
 
 .pc_menu p{
@@ -195,10 +195,7 @@ img{
 }
 
 .pc_menu .blue {
-    background-color: #234378;
-    border-radius: 100px;
-    padding: 10px 20px;
-    color: #ffff;
+    width: 210px;
 }
 
 .moushikomi {
@@ -219,7 +216,7 @@ img{
 
 .top_ga {
     height: 600px;
-    background-image: url(./images/back1@2x.png);
+    background-image: url(../images/back1@2x.png);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -269,7 +266,7 @@ img{
 }
 
 .area2 .inner {
-    background-image: url(./images/back2@2x.png);
+    background-image: url(../images/back2@2x.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -306,7 +303,7 @@ img{
 
 
 .area3 {
-    background-image: url(./images/back3@2x.png);
+    background-image: url(../images/back3@2x.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -332,7 +329,7 @@ img{
 .area3 .box {
     display: flex;
     margin-bottom: 30px;
-    gap: 50px;
+    justify-content: space-between;
 }
 
 .area3 .img_box {
@@ -353,10 +350,11 @@ img{
 }
 
 .area3 .komidasi {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .area3 .l {
+    width: 32%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -366,7 +364,7 @@ img{
 /* area4------------------------------- */
 
 .back4 {
-    background-image: url(./images/back4@2x.png);
+    background-image: url(../images/back4@2x.png);
     background-size: cover;
     padding: 100px 0;
 }
@@ -423,13 +421,19 @@ img{
     gap: 20px;
     overflow-x: auto;
     white-space: nowrap;
+    margin-bottom: 50px;
 }
 
 .area4 .list2 .l {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 292px;
     flex-shrink: 0;
+}
+
+.area4 .list2 .l .text_box p {
+    text-align: center;
 }
 
 .area4 .list2 .img_box {
@@ -460,6 +464,7 @@ img{
     height: 200px;
     object-fit: cover;
 }
+
 
 
 
@@ -526,13 +531,15 @@ img{
 .area6 .news_box {
     width: 800px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 80px;
+    border-bottom: solid #bbbbbb 1px;
+    padding: 20px 0;
 }
 
 .area6 .box {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     margin-bottom: 30px;
 }
 
@@ -561,6 +568,14 @@ img{
 
 .area7 .text_box {
     margin-bottom: 30px;
+}
+
+.area7 .blue_button {
+    background-color: inherit;
+    box-shadow: none;
+    border-radius: inherit;
+    padding: 0px;
+    width: 400px;
 }
 
 
@@ -852,6 +867,11 @@ select {
         padding-top: 10px;
         height: 70px;
         position: relative;
+        position: fixed;
+        width: 100%;
+        background-color: #ffff;
+        z-index: 100;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 
     }
 
@@ -982,6 +1002,7 @@ select {
         opacity: 1;
         visibility: visible;
         z-index: 10;
+        width: 100%;
     }
 
     .drawer__nav__inner {
@@ -1030,10 +1051,12 @@ select {
 
 
     .top_sp .blue {
-        background-color: #234378;
-        border-radius: 100px;
-        padding: 10px 20px;
-        color: #ffff;
+        width: 300px;
+    }
+
+    .top_sp .blue img {
+        height: auto;
+        width: 250px;
     }
 
 
@@ -1120,17 +1143,22 @@ select {
 
     .area3 .box {
         flex-direction: column;
+        gap: 50px;
     }
 
     .area3 .inner {
         margin: 30px 0;
     }
 
+    .area3 .l {
+        width: 100%;
+    }
+
     /* area4------------------------------- */
 
     .back4 {
         padding: 50px 0;
-	background-color:rgba(255,255,255,0.7);
+        background-color:rgba(255,255,255,0.7);
         background-blend-mode:lighten;
     }
 
@@ -1145,6 +1173,7 @@ select {
     .area4 .komidasi {
         font-size: 20px;
     }
+
 
     /* area5------------------------------- */
 
@@ -1189,7 +1218,11 @@ select {
     }
 
     .area6 .box {
-        gap: 30px;
+        width: 100%;
+    }
+
+    .area6 .news_box {
+        width: 100%;
     }
 
     
@@ -1203,6 +1236,11 @@ select {
     .area7 .text_box p {
         text-align: center;
         font-size: 12px;
+    }
+
+    .area7 .blue_button {
+        width: 75%;
+        margin: 0 auto;
     }
     
 
