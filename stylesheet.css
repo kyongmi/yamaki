@@ -303,7 +303,7 @@ img{
 
 
 .area3 {
-    background-image: url(../images/back3@2x.png);
+    background-image: url(/images/back3@2x.png);
     background-size: cover;
     background-position: center;
     display: flex;
