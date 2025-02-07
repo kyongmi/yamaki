@@ -216,7 +216,7 @@ img{
 
 .top_ga {
     height: 600px;
-    background-image: url(./images/back1@2x.png);
+    background-image: url(images/back1@2x.png);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -303,7 +303,7 @@ img{
 
 
 .area3 {
-    background-image: url(/images/back3@2x.png);
+    background-image: url(images/back3@2x.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -364,7 +364,7 @@ img{
 /* area4------------------------------- */
 
 .back4 {
-    background-image: url(../images/back4@2x.png);
+    background-image: url(images/back4@2x.png);
     background-size: cover;
     padding: 100px 0;
 }
