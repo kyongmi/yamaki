@@ -364,7 +364,7 @@ img{
 /* area4------------------------------- */
 
 .back4 {
-    background-image: url(images/back4@2x.png);
+    background-image: url(../images/back4@2x.png);
     background-size: cover;
     padding: 100px 0;
 }
@@ -413,6 +413,10 @@ img{
 
 .area4 .list p {
     text-align: center;
+}
+
+.area4 .list .img_box {
+    margin-bottom: 10px;
 }
 
 
@@ -464,7 +468,6 @@ img{
     height: 200px;
     object-fit: cover;
 }
-
 
 
 
